@@ -1,0 +1,14 @@
+// For format details, see https://aka.ms/devcontainer.json. For config options, see the README at:
+// https://github.com/microsoft/vscode-dev-containers/tree/v0.238.0/containers/typescript-node
+{
+	"name": "ReillyMC Website",
+	"image": "mcr.microsoft.com/devcontainers/typescript-node:22",
+	// Configure tool-specific properties.
+	"customizations": {
+		// Configure properties specific to VS Code.
+		"vscode": {
+			// Add the IDs of extensions you want installed when the container is created.
+			"extensions": ["dbaeumer.vscode-eslint", "esbenp.prettier-vscode", "svelte.svelte-vscode"]
+		}
+	}
+}
