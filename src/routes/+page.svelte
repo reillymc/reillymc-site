@@ -7,7 +7,7 @@
 </svelte:head>
 
 <main class="flex flex-1 flex-col items-center justify-center text-center">
-	<h1>👋 Hello! I'm {Details.firstName}</h1>
+	<h1>👋 Hello, I'm {Details.firstName}</h1>
 	<h2>{Details.jobTitle}</h2>
 	<div class="icons mt-4 flex gap-8">
 		{#each Details.links as { label, icon: LinkIcon, href } ({ href })}

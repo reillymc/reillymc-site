@@ -1,6 +1,6 @@
 # reillymc website
 
-This repo contains the source for reillymc.com, a personal website and portfolio. It is built with Svelte.
+This repository contains the source code for [reillymc.com](reillymc.com), a personal portfolio website for showcasing projects and skills. It is built with SvelteKit, and currently builds and deploys as a static site.
 
 ## Developing
 
@@ -21,3 +21,12 @@ npm run build
 ```
 
 You can preview the production build with `npm run preview`.
+
+## Deployment
+
+The site builds to static HTML/CSS/JS and can be deployed to any static hosting provider by simply uploading the output of the `/build` folder.
+
+## Resources
+
+Built using [shadcn-svelte](https://www.shadcn-svelte.com/), [Lucide](https://lucide.dev/icons/) and [devicon](https://github.com/devicons/devicon).
+Inspired by [️SvelteKit-Portfolio](https://github.com/Ladvace/SvelteKit-Portfolio?tab=MIT-1-ov-file) and [Slick Portfolio With Svelte](https://github.com/RiadhAdrani/slick-portfolio-svelte-5)
