@@ -4,4 +4,5 @@ export const AssetIcons = {
 	logo,
 };
 
+export { ProjectIcons } from "./projects";
 export { SkillIcons } from "./skills";
